@@ -32,7 +32,7 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-t-85 p-b-20">
-				<form class="login100-form validate-form">
+				<form method="post" action="<?php echo site_url().'/login_controller/register';?>" class="login100-form validate-form">
 					<span class="login100-form-avatar">
 						<img src="<?php echo base_url().'assets/login/images/asprak.png'?>" alt="AVATAR">
 					</span>
@@ -46,7 +46,7 @@
 						<span class="focus-input100" data-placeholder="email"></span>
 					</div>
 					<div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
-						<input class="input100" type="password" name="pass">
+						<input class="input100" type="password" name="password">
 						<span class="focus-input100" data-placeholder="Password"></span>
 					</div>
 					<div class="container-login100-form-btn">
@@ -61,7 +61,7 @@
 								Punya Akun?
 							</span>
 
-							<a href="#" class="txt2">
+							<a href="<?php echo site_url().'/login_controller/index';?>" class="txt2">
 								Login
 							</a>
 						</li>
