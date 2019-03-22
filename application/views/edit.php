@@ -58,9 +58,6 @@
         #cellPaiChart{
             height: 160px;
         }
-		.margin_bawah{
-			margin-bottom:20px
-		}
 
     </style>
 </head>
@@ -194,62 +191,54 @@
         </header>
         <!-- /#header -->
         <!-- Content -->
-		<div class="col-lg-12 margin-bawah">
+        <div class="content">
+            <div class="animated fadeIn">
+
+                    <div class="col-xs-12 col-sm-">
                         <div class="card">
                             <div class="card-header">
-                                <strong class="card-title">Tabel Data Mahasiswa</strong>
+                                <strong>Input</strong> <small>Data diri</small>
                             </div>
-                            <div class="card-body">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                          <th scope="col">Nim</th>
-                                          <th scope="col">Nama Lengkap</th>
-                                          <th scope="col">Kelas</th>
-										  <th scope="col">Jurusan</th>
-										  <th scope="col">Angkatan</th>
-										  <th scope="col">Aksi</th>
-                                      </tr>
-                                  </thead>
-                                  <tbody>
-                                    <tr>
-                                        <th scope="row">1301164154</th>
-                                        <td>Mark</td>
-                                        <td>if-41-03</td>
-										<td>S1-informatika</td>
-										<td>2016</td>
-										<td>
-											<a href=""><button class="btn btn-danger">Delete</button></a>
-											<a href=""><button class="btn btn-success">Edit</button></a>
-										</td>
-                                    </tr>
-                                    <tr>
-									<th scope="row">1301164154</th>
-                                        <td>Mark</td>
-                                        <td>if-41-03</td>
-										<td>S1-informatika</td>
-										<td>2016</td>
-										<td>
-											<a href=""><button class="btn btn-danger">Delete</button></a>
-											<a href=""><button class="btn btn-success">Edit</button></a>
-										</td>
-                                    </tr>
-                                    <tr>
-									<th scope="row">1301164154</th>
-                                        <td>Mark</td>
-                                        <td>if-41-03</td>
-										<td>S1-informatika</td>
-										<td>2016</td>
-										<td>
-											<a href=""><button class="btn btn-danger">Delete</button></a>
-											<a href=""><button class="btn btn-success">Edit</button></a>
-										</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="card-body card-block">
+                                <div class="form-group">
+                                    <label class=" form-control-label">Nim</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-bar-chart"></i></div>
+                                        <input name="nim" class="form-control" value="1301164131" readonly>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class=" form-control-label">Nama Lengkap</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-user-circle"></i></div>
+                                        <input name="nama" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class=" form-control-label">Kelas</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-window-maximize"></i></div>
+                                        <input name="kelas" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class=" form-control-label">Jurusan</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-institution"></i></div>
+                                        <input name="jurusan" class="form-control">
+                                    </div>
+                                </div>
+								<div>
+									<input style="width:100%" type="submit" class="btn btn-success" value="submit">
+								</div>
+                            </div>
                         </div>
                     </div>
                 </div>
+      </div>
+
+
+
   </div>
 
 
