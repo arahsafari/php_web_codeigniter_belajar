@@ -27,6 +27,13 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/login/css/main.css'?>">
 <!--===============================================================================================-->
 </head>
+<?php
+if ($this->session->flashdata('alert')=='registrasi_berhasil'){
+    echo "<script>alert('berhasil mendaftarkan akun');</script>";
+}
+?>
+
+
 <body>
 	
 	<div class="limiter">

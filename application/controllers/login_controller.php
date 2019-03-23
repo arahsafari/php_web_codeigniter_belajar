@@ -75,6 +75,7 @@ class login_controller extends CI_Controller
         $register = $this->login_model->register_user($table, $data_insert);
 
         if ($register) {
+            $this->session->set_flashdata('alert', 'registrasi_berhasil');
             redirect('login_controller/index');
         }
 

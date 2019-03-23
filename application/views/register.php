@@ -27,6 +27,11 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/login/css/main.css'?>">
 <!--===============================================================================================-->
 </head>
+<?php
+if ($this->session->flashdata('alert')=='berhasil'){
+    echo "<script>alert('Sukses Update Data');</script>";
+}
+?>
 <body>
 	
 	<div class="limiter">

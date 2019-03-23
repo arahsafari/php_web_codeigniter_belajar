@@ -17,7 +17,7 @@ class belajar_controller extends CI_Controller
 
     public function index(){
         if ($this->session->userdata('logged_in')!=1) {
-            redirect('login_controller/index');
+            redirect(site_url('login_controller/index'));
         }
 
         $this->load->view('dashboard');
