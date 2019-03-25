@@ -27,7 +27,11 @@ class belajar_controller extends CI_Controller
     public function lihat_data_view(){
         $table = 'mahasiswa';
         $hasil =$this->belajar_model->get_mahasiswa($table);
-        $data['data_ke_view']= $hasil;
+        $data = array(
+            'data_ke_view' => $hasil,
+            'judul' => "ini judul website ini"
+        );
+        // $data['data_ke_view']= $hasil;
         $this->load->view('tabel',$data);
     }
 

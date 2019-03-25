@@ -30,6 +30,8 @@
 <?php
 if ($this->session->flashdata('alert')=='registrasi_berhasil'){
     echo "<script>alert('berhasil mendaftarkan akun');</script>";
+}else if ($this->session->flashdata('alert')=='login_gagal'){
+    echo "<script>alert('login anda gagal');</script>";
 }
 ?>
 

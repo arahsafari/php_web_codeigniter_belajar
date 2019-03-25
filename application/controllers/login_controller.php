@@ -50,7 +50,8 @@ class login_controller extends CI_Controller
             redirect('belajar_controller/index');
 
         }        else {
-            echo "<script>alert('Gagal login: Cek username, password!');</script>";
+                        $this->session->set_flashdata('alert', 'login_gagal');
+
             redirect('login_controller/index');
 
 
