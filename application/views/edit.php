@@ -76,7 +76,7 @@
         <!-- Content -->
         <div class="content">
             <div class="animated fadeIn">
-                <form action="<?php echo site_url().'/belajar_controller/edit_data/'.$data_ke_view['nim'];?>" method="post">
+                <form action="<?php echo site_url().'/BelajarController/edit_data/'.$data_ke_view['nim'];?>" method="post">
 
                     <div class="col-xs-12 col-sm-">
                         <div class="card">

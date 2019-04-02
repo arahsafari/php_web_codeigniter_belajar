@@ -39,7 +39,7 @@ if ($this->session->flashdata('alert')=='registrasi_berhasil'){
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-t-85 p-b-20">
-				<form method="post" action="<?php echo site_url().'/login_controller/cek_login';?>" class="login100-form validate-form">
+				<form method="post" action="<?php echo site_url().'/LoginController/cek_login';?>" class="login100-form validate-form">
 					<span class="login100-form-avatar">
 						<img src="<?php echo base_url().'assets/login/images/asprak.png'?>" alt="AVATAR">
 					</span>
@@ -66,7 +66,7 @@ if ($this->session->flashdata('alert')=='registrasi_berhasil'){
 								Tidak Punya akun?
 							</span>
 
-							<a href="<?php echo site_url().'/login_controller/register_view';?>" class="txt2">
+							<a href="<?php echo site_url().'/LoginController/register_view';?>" class="txt2">
 								Register
 							</a>
 						</li>
