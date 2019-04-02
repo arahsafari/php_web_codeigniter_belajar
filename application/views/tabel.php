@@ -99,8 +99,8 @@
                                         <td><?php echo $data['kelas']; ?></td>
 										<td><?php echo $data['jurusan']; ?></td>
 										<td>
-											<a href="<?php echo site_url().'/belajar_controller/delete_data/'.$data["nim"];?>"><button class="btn btn-danger">Delete</button></a>
-											<a href="<?php echo site_url().'/belajar_controller/edit_data_view/'.$data["nim"];?>"><button class="btn btn-success">Edit</button></a>
+											<a href="<?php echo site_url().'/BelajarController/delete_data/'.$data["nim"];?>"><button class="btn btn-danger">Delete</button></a>
+											<a href="<?php echo site_url().'/BelajarController/edit_data_view/'.$data["nim"];?>"><button class="btn btn-success">Edit</button></a>
 										</td>
                                     </tr>
                                   <?php endforeach; ?>

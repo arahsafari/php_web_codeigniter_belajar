@@ -37,7 +37,7 @@ if ($this->session->flashdata('alert')=='berhasil'){
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-t-85 p-b-20">
-				<form method="post" action="<?php echo site_url().'/login_controller/register';?>" class="login100-form validate-form">
+				<form method="post" action="<?php echo site_url().'/LoginController/register';?>" class="login100-form validate-form">
 					<span class="login100-form-avatar">
 						<img src="<?php echo base_url().'assets/login/images/asprak.png'?>" alt="AVATAR">
 					</span>
@@ -66,7 +66,7 @@ if ($this->session->flashdata('alert')=='berhasil'){
 								Punya Akun?
 							</span>
 
-							<a href="<?php echo site_url().'/login_controller/index';?>" class="txt2">
+							<a href="<?php echo site_url().'/LoginController/index';?>" class="txt2">
 								Login
 							</a>
 						</li>
