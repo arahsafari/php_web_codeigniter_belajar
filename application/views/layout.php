@@ -7,10 +7,10 @@
                 </li>
                 <li class="menu-title">UI elements</li><!-- /.menu-title -->
                 <li class="menu-title">
-                    <a href="<?php echo site_url().'/belajar_controller/lihat_data_view';?>" class="dropdown-toggle"> <i class="menu-icon fa fa-table"></i>Tables</a>
+                    <a href="<?php echo site_url().'/BelajarController/lihat_data_view';?>" class="dropdown-toggle"> <i class="menu-icon fa fa-table"></i>Tables</a>
                 </li>
                 <li class="menu-title">
-                    <a href="<?php echo site_url().'/belajar_controller/input_data_view';?>" class="dropdown-toggle"> <i class="menu-icon fa fa-th"></i>Forms</a>
+                    <a href="<?php echo site_url().'/BelajarController/input_data_view';?>" class="dropdown-toggle"> <i class="menu-icon fa fa-th"></i>Forms</a>
                 </li>
             </ul>
         </div><!-- /.navbar-collapse -->

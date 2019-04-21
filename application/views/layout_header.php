@@ -94,7 +94,7 @@
 
                     <a class="nav-link" href="#"><i class="fa fa -cog"></i>Settings</a>
 
-                    <a class="nav-link" href="<?php echo site_url().'/login_controller/logout';?>"><i class="fa fa-power -off"></i>Logout</a>
+                    <a class="nav-link" href="<?php echo site_url().'/LoginController/logout';?>"><i class="fa fa-power -off"></i>Logout</a>
                 </div>
             </div>
 

@@ -76,7 +76,7 @@
         <div class="content">
             <div class="animated fadeIn">
 
-                <form action="<?php echo site_url().'/belajar_controller/input_data';?>" method="post">
+                <form action="<?php echo site_url().'/BelajarController/input_data';?>" method="post">
 
                     <div class="col-xs-12 col-sm-">
                         <div class="card">

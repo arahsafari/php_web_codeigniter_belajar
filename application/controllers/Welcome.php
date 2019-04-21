@@ -21,7 +21,7 @@ class Welcome extends CI_Controller {
     public function index()
     {
         if ($this->session->userdata('login')==1) {
-            redirect('belajar_controller/index');
+            redirect('BelajarController/index');
         }
 
         $this->load->view('login');
